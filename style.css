@@ -1,0 +1,53 @@
+div{
+    text-align:center
+}
+
+#Rain{
+    animation: raining 4s ease-in-out infinite alternate;
+}
+
+@keyframes raining{
+    from{
+        transform:translateY(-60%);
+
+
+    }
+    to{
+        transform:translateY(0%);
+    }
+}
+
+#Head{
+        animation: head 2s ease-in-out infinite alternate;
+        transform-origin: center;
+        transform-box: fill-box;
+}
+
+@keyframes head{
+    from{
+        transform:rotateZ(0deg);
+
+
+    }
+    to{
+        transform:rotateZ(10deg);
+    }
+}
+
+#Umbrella{
+    animation: umbrella 2s ease-in-out infinite alternate;
+        transform-origin: center;
+        transform-box: fill-box;
+}
+
+
+@keyframes umbrella{
+    from{
+        transform:rotateZ(0deg);
+
+
+    }
+    to{
+        transform:rotateZ(10deg);
+    }
+}
